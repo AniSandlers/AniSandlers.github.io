@@ -6,7 +6,9 @@
 
 > [Ani Sandlers](https://github.com/AniSandlers),
 > Al3xa,
-> M-acho.
+> M-acho,
+> El Anonimus,
+> Diagnosis
 
 ----
 
