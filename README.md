@@ -1,4 +1,4 @@
-# PILIES WEB Vr. 2.21
+# PILIES WEB Vr. 2.22
 `<link>` : <https://anisandlers.github.io/> 
 
             
@@ -9,6 +9,18 @@
 > M-acho,
 > El Anonimus,
 > Diagnosis
+
+### Notas del Parche:
+
+#### Correción de Errores y Añadidos (+)
+- Se añadió la sección: Misión y Visión (Incompleto).
+- Se añadió la sección: SAIES (Incompleto).
+- Se añadió un Directorio completo y funcional.
+
+----
+
+# PILIES WEB Vr. 2.21
+`<link>` : <https://anisandlers.github.io/> 
 
 ----
 
