@@ -1174,3 +1174,79 @@ html {
 	}
 }
 
+ /*COSAS DE ESTILOS CUCHAU*/
+/* styles.css */
+
+.pycontainer {
+	display: flex;
+	margin-bottom: 20px;
+  }
+  
+  .pyslider {
+	width: 50%;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .pyslider img {
+	width: 100%;
+	display: block;
+  }
+  
+  .pydescription {
+	width: 50%;
+	margin-top: 100px; /* Puedes ajustar este valor según sea necesario */
+
+  }
+  
+  .pytitle {
+	text-align: center;
+	font-size: 24px;
+  }
+  
+  .pytext {
+	font-size: 15px;
+	text-align: justify;
+  }
+  
+  .pyleft {
+	order: 1; /* Cambia el orden en el layout */
+  }
+  
+  .pyright {
+	order: 2; /* Cambia el orden en el layout */
+  }
+
+  /* styles.css */
+
+.py2slider {
+	width: 50%;
+	overflow: hidden;
+  }
+  
+  .py2slider img {
+	width: 100%;
+	display: inline-block;
+  }
+  
+  .py2description {
+	width: 50%;
+	margin-top: 100px; /* Puedes ajustar este valor según sea necesario */
+
+  }
+  
+  .py2slider.right {
+	order: 1; /* Cambia el orden en el layout */
+  }
+  
+  .py2description.left {
+	order: 2; /* Cambia el orden en el layout */
+  }
+  
+
+  /*Wea del loader*/
+
+
+  
+  
+  

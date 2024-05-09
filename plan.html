@@ -5,10 +5,19 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0"
+			content="width=device-width, initial-scale=0.67"
 			<link rel="shortcut icon" href="./logo1.png" type="image/svg+xml">	
 		
 		<title>Ingeniería en Energía & Sustentabilidad</title>
+		<style>
+			body {
+				transform: scale(1); /* Escalar el cuerpo al 67% */
+				transform-origin: 0 0; /* Establecer el punto de origen de la transformación */
+				width: 150%; /* Compensar el efecto del escalado */
+				height: 150%; /* Compensar el efecto del escalado */
+			}
+			
+		</style>
 		<link rel="stylesheet" href="styles_plan.css" />
 	</head>
 	<body>
@@ -23,158 +32,106 @@
 				</div>
 		  
 				<!-- Contenedor para el logo y el título -->
-				<div class="container-title-logo">
-					<div class="container-logo">
-						<img src="img/logo1.png" alt="Logo" class="logo-img">
-						<h1 class="logo">Ingeniería en Energía & Sustentabilidad</h1>
-					</div>
-					</div>
-			  </div>
-			</div>		  
 
-			<div class="container-navbar">
-				<nav class="navbar container">
-					<i class="fa-solid fa-bars"></i>
-					<ul class="menu">
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="normativa.html">Normativa</a></li>
-						<li><a href="https://www.dvss.umich.mx/becas/becas?fbclid=IwAR1-Kk5h70yjSft1DiM5xE_lOrypJc2TuYePW1Bs6fj_CuTuYUuV0IICJZI">Becas</a></li>
-						<li><a href="directorio.html">Directorio</a></li>
-						<li><a href="#">Ex-Alumnos</a></li>
-						<li><a href="biblioteca.html">Biblioteca Virtual</a></li>
-					</ul>
-
-				</nav>
-			</div>
-		</header>
 
         <section class="container top-categories">
             <h1 class="heading-1">Plan de Estudios</h1>
 
-            <!-- Esto es la barra de busqueda -->
+            <!-- Esto es la barra de busqueda 
             <div class="MiInputContainer">
                 <input placeholder="Búsqueda por materia..." id="miInput" class="miInput" name="text" type="text">
               </div> 
+-->
+
+<!-- Botón de mapa curricular original -->
+
+<button class="mebutton" id="pdfButton">
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+	  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+	</svg>
+	<div class="metext">
+	  Mapa Original
+	</div>
+  </button>
+  
+  <script>
+	document.getElementById("pdfButton").addEventListener("click", function() {
+	  window.location.href = "https://drive.google.com/file/d/1SG8MuW2-vqI-2_5Ylivc3HFomaQfAlJq/view";
+	});
+  </script>
+
 
 <!-- Botón de ayuda -->
 <div class="ButtonContainer">
-    <button class="customButton">Ayuda</button>
-    <button class="customButton" id="vistaSemestre">Semestre</button>
-    <button class="customButton" id="vistaArea">Área</button>
+    <button class="customButton">Selecciona cada casilla del semestre que te interese información</button>
   </div>
   
- <!-- Carta Matería de Ejemplo --> 
- <div class="card">
-    <img src="img/calculo.jpg" alt="Ícono de Cálculo">
-    <div class="card__content">
-      <p class="card__title">Calculo Diferencial</p>
-      <p class="card__description">Creditos:10 - Horas: 6 - Bla bla bla, mucho texto.
-      </p>
-    </div>
-  </div>
   
  <!-- Carta Matería de Ejemplo 2 -->
- <div class="micard">
-    <img src="img/calculo.jpg" alt="Imagen de Cálculo" class="micard-image">
-    <div class="micategory">Calculo Diferencial</div>
-    <div class="miheading">Materia de Tronco Común
-      <div class="miauthor">Horas: <span class="miname">6</span> Créditos <span class="miname">10</span></div>
-    </div>
-  </div>
-  
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+	 <meta charset="UTF-8">
+	 <title>Mapa Curricular</title>
+	 <link rel="stylesheet" href="styles_plan.css">
+ </head>
+ <body>
+	
+	<div id="mapa-curricular">
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxVXI7u1qYrMk5KqQ?e=n0RjKT'">Semestre 1</button>
+			<!-- Cartas del primer semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxWJQG3wF1SBzr5ow?e=6kr6MP'">Semestre 2</button>
+			<!-- Cartas del segundo semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxXgkx5ioLVfn_mLw?e=7fUYfk'">Semestre 3</button>
+			<!-- Cartas del tercer semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxYlkdOBZNiOfFAdg?e=eNbfUq'">Semestre 4</button>
+			<!-- Cartas del cuarto semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxZ0v5zxJalqbBCoA?e=dZefmC'">Semestre 5</button>
+			<!-- Cartas del quinto semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxbMgH6jAOEjl53YA?e=iTDimb'">Semestre 6</button>
+			<!-- Cartas del sexto semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxa60wvt6TJOHMv5g?e=rPMFZs'">Semestre 7</button>
+			<!-- Cartas del séptimo semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = 'https://1drv.ms/f/s!Ah6ZjH42RBCFiaxcI3E3lW5KffUdTA?e=S7fTxg'">Semestre 8</button>
+			<!-- Cartas del octavo semestre -->
+		</div>
+		<div class="semestre">
+			<button onclick="window.location.href = '#'; alert('No hay link disponible para el noveno semestre.');">Semestre 9</button>
+			<!-- Cartas del noveno semestre -->
+		</div>
+	</div>
+	
 
- <!-- Carta Matería de Ejemplo 3 -->
+<!-- Explicación. -->
 
- <div class="mecard">
-   <div class="mecontent">
-     <div class="meback">
-       <div class="meback-content">
-         <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
-           <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-           <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-           <g id="SVGRepo_iconCarrier">
-           </g>
-         </svg>
-         <strong>Calculo Diferencial</strong>
-       </div>
-     </div>
-     <div class="mefront">
-       <div class="meimg">
-         <div class="mecircle"></div>
-         <div class="mecircle" id="meright"></div>
-         <div class="mecircle" id="mebottom"></div>
-       </div>
-       <div class="mefront-content">
-         <small class="mebadge">Seriada</small>
-         <div class="medescription">
-           <div class="metitle">
-             <p class="metitle">
-               <strong>Materia de Tronco Común</strong>
-             </p>
-             <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#20c997"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
-           </div>
-           <p class="mecard-footer">
-             Horas: 6 &nbsp; | &nbsp; Creditos: 10
-           </p>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
- 
-
-
-
+	 <script src="plan.js"></script>
+ </body>
+ </html> 
         </section>
-        
-                
-
 		<footer class="footer">
-			<div class="container container-footer">
-				<div class="menu-footer">
-					<div class="contact-info">
-						<p class="title-footer">Información de Contacto</p>
-						<ul>
-							<li>
-								Dirección: Avenida Universidad 9, Fraccionamiento Real Universidad,
-								58040 Morelia, Mich. MULTIDES
-							</li>
-							<li>Teléfono: 443-322-3500 ext. 5234</li>
-						
-							
+				<div class="menu-footer">			
 						</ul>
-						<div class="social-icons">
-							<span class="facebook">
-								<i class="fa-brands fa-facebook-f"></i>
-							</span>
-							<span class="twitter">
-								<i class="fa-brands fa-twitter"></i>
-							</span>
-							<span class="youtube">
-								<i class="fa-brands fa-youtube"></i>
-							</span>
-							<span class="pinterest">
-								<i class="fa-brands fa-pinterest-p"></i>
-							</span>
-							<span class="instagram">
-								<i class="fa-brands fa-instagram"></i>
-							</span>
-						</div>
-					</div>
-
-					
 						</div>
 					</div>
 				</div>
-
-				<div class="copyright">
-					<p>
-						Desarrollado por David Scott (esto lo cambio despues, no más es pa presumir)
-					</p>
 				</div>
 			</div>
 		</footer>
-
 		<script
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"

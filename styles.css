@@ -1074,3 +1074,26 @@ html {
 		font-size: 1.6rem;
 	}
 }
+
+/* Hasta acá se notan los rugidos de tripas, que diga, lo de mision, vision, etc. */
+
+.contenedor {
+	max-width: 1200px; /* Ancho máximo del contenedor */
+	margin: 0 auto; /* Centra el contenedor */
+	padding: 0 20px; /* Espacio entre borde izquierdo y derecho */
+}
+
+.miytitulo {
+	font-size: 24px; /* Tamaño de los títulos */
+	color: #2556BD; /* Nuevo color de los títulos */
+	text-align: center; /* Centrado de los títulos */
+	margin-bottom: 10px;
+}
+
+.miyparrafo {
+	font-size: 16px; /* Tamaño de los textos */
+	text-align: justify; /* Textos justificados */
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
